@@ -11,6 +11,11 @@ import './styles/App.css';
 function App() {
     return (
         <div>
+            <div class="particles">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <Navbar />
             <Hero />
             <Section id="project" title="Présentation du projet" content="Découvrez comment AnalyseYourDiscord transforme vos données Discord en informations claires et utiles." />
