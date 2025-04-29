@@ -1,3 +1,5 @@
+import React from 'react';
+import { Bar } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -8,9 +10,9 @@ import {
     Title,
     Tooltip,
     Legend
-  } from 'chart.js';
-  
-  ChartJS.register(
+} from 'chart.js';
+
+ChartJS.register(
     CategoryScale,
     LinearScale,
     BarElement,
@@ -19,11 +21,8 @@ import {
     Title,
     Tooltip,
     Legend
-  );
-  
+);
 
-import React from 'react';
-import { Bar } from 'react-chartjs-2';
 
 const MessageChart = () => {
     const data = {
