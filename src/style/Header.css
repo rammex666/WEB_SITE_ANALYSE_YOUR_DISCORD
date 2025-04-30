@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Timmana&display=swap');
+
 .header {
-    background-color: #282c34;
-    color: white;
+    position: fixed; /* Fixe la navbar en haut de la page */
+    top: 0;
+    left: 0;
+    width: 100%; /* Prend toute la largeur */
+    color: white; /* Couleur du texte */
     text-align: center;
-    padding: 20px;
-  }
+    padding: 10px 0; /* Espacement vertical */
+    z-index: 10; /* Assure que la navbar est au-dessus des autres éléments */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet visuel */
+}
   
 .header-title {
     font-size: 2rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     margin: 0;
 }

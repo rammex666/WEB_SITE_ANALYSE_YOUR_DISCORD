@@ -7,9 +7,8 @@ function App() {
     <div className="App">
       <div className="background"></div>
       <div className="overlay"></div>
-      <div className="content">
+      <div className="navbar">
         <Header />
-        <h1>Analyse Your Discord</h1>
       </div>
     </div>
   );
