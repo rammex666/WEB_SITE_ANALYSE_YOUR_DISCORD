@@ -1,5 +1,6 @@
 import React from "react";
-import "./App.css";
+import "./style/App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="background"></div>
       <div className="overlay"></div>
       <div className="content">
+        <Header />
         <h1>Analyse Your Discord</h1>
       </div>
     </div>
