@@ -37,7 +37,7 @@
 }
 
 .navbutton button {
-    background-color: #00ff00; /* Couleur de fond du bouton */
+    background-color: #046704; /* Couleur de fond du bouton */
     color: white; /* Couleur du texte */
     font-family: 'Jost', sans-serif; /* Utilise la police Jost */
     font-weight: 500; /* Épaisseur de la police */
@@ -50,5 +50,5 @@
 }
 
 .navbutton button:hover {
-    background-color: #00cc00; /* Couleur de fond au survol */
+    background-color: #034f03;; /* Couleur de fond au survol */
 }

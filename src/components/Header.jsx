@@ -9,8 +9,8 @@ function Header() {
         <h2 className="brandname">AYD</h2>
         <div className="navbutton">
             <button className="AccountButton">
-                <i className="bi bi-person"></i>
-                 Account
+                <i className="bi bi-person" />
+                Account
             </button>
         </div>
     </header>
