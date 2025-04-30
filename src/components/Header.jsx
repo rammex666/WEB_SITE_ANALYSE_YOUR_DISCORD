@@ -8,7 +8,10 @@ function Header() {
         <img src={logo} className="logoayd"/>
         <h2 className="brandname">AYD</h2>
         <div className="navbutton">
-            <button className="AccountButton">Account</button>
+            <button className="AccountButton">
+                <i className="bi bi-person-circle"></i>
+                Account
+            </button>
         </div>
     </header>
   );
