@@ -29,3 +29,26 @@
     margin-left: 10px; /* Espacement à gauche */
     padding-left: 10;
 }
+
+.navbutton {
+    margin-left: auto; /* Pousse le bouton à droite */
+    display: flex; /* Active Flexbox pour le bouton */
+    align-items: center; /* Centre le contenu verticalement */
+}
+
+.navbutton button {
+    background-color: #00ff00; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    font-family: 'Jost', sans-serif; /* Utilise la police Jost */
+    font-weight: 500; /* Épaisseur de la police */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur en main au survol */
+    transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
+}
+
+.navbutton button:hover {
+    background-color: #00cc00; /* Couleur de fond au survol */
+}
