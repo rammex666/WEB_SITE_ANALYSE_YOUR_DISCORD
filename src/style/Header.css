@@ -2,12 +2,14 @@
 
 .header {
     position: fixed; /* Fixe la navbar en haut de la page */
+    display: flex;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%; /* Prend toute la largeur */
     color: white; /* Couleur du texte */
     text-align: center;
-    padding: 10px 0; /* Espacement vertical */
+    padding: 10px 20px; /* Espacement vertical */
     z-index: 10; /* Assure que la navbar est au-dessus des autres éléments */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet visuel */
 }
@@ -23,5 +25,6 @@
 .logoayd {
     width: 50px; /* Ajuste la taille de l'image selon tes besoins */
     height: auto; /* Garde les proportions de l'image */
-    padding-left: 5%;
+    margin-right: 10px;
+    padding-left: 0;
 }
