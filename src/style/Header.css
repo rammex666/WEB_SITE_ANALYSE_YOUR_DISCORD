@@ -20,3 +20,13 @@
     margin-right: 10px;
     padding-left: 0;
 }
+
+.brandname {
+    font-family: 'Jost', sans-serif; /* Utilise la police Jost */
+    font-size: 24px; /* Taille de la police */
+    font-weight: 700; /* Épaisseur de la police */
+    color: #00ff00; /* Couleur du texte */
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Ombre portée pour un effet lumineux */
+    margin-left: 10px; /* Espacement à gauche */
+    padding-left: 10;
+}
