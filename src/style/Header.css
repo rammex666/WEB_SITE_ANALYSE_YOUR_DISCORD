@@ -19,9 +19,8 @@
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 0;
     align-content: center;
-    padding-left: 30px; /* Espacement entre le logo et le titre */
+    margin-left: 60px; /* Espacement entre le logo et le titre */
 }
 
 .logoayd {
