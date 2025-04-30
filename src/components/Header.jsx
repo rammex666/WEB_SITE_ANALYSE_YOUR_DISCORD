@@ -4,6 +4,7 @@ import "../style/Header.css";
 function Header() {
   return (
     <header className="header">
+        <Image src="../assets/logoayd.png"/>
         <h1 className="header-title">Welcome to Analyse Your Discord</h1>
     </header>
   );

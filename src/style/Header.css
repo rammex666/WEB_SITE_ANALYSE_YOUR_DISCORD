@@ -19,3 +19,9 @@
     font-style: normal;
     margin: 0;
 }
+
+.logoayd {
+    width: 50px; /* Ajuste la taille de l'image selon tes besoins */
+    height: auto; /* Garde les proportions de l'image */
+    padding-left: 5%;
+}
