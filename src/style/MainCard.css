@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Timmana&display=swap');
+
 .MainCard {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     padding: 20px;
