@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/App.css";
 import Header from "./components/Header";
+import MainCard from "./components/MainCard";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <div className="overlay"></div>
       <div className="navbar">
         <Header />
+      </div>
+      <div className="content">
+        <MainCard />
       </div>
     </div>
   );
