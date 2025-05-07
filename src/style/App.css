@@ -12,7 +12,8 @@ html, body, #root, .App {
   font-family: sans-serif;
   background: #0d0d0d;
   position: relative;
-  overflow: hidden;
+  overflow-x : hidden;
+  min-height: 100%;
 }
 
 .background {
