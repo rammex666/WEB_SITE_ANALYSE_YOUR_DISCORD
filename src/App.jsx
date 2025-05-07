@@ -6,8 +6,6 @@ import MainCard from "./components/MainCard";
 function App() {
   return (
     <div className="App">
-      <div className="background"></div>
-      <div className="overlay"></div>
       <div className="navbar">
         <Header />
       </div>
