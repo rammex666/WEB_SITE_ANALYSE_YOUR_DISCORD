@@ -23,7 +23,8 @@
 .image {
     width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-top: 50%;
+    margin-right: 50%;
 }
 
 .text {
